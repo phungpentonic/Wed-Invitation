@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Văn Phụng & Kim Hằng — Trân trọng kính mời</title>
+  <meta name="description" content="Join us to celebrate our wedding. Save the date, view details, and RSVP online." />
+
+  <!-- Social / SEO -->
+  <meta property="og:title" content="Văn Phụng & Kim Hằng — Trân trọng kính mời" />
+  <meta property="og:description" content="We’d love to celebrate with you! Save the date and RSVP." />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#F3EEE7" />
+
+  <link rel="iconpng
+  <link rel="preconnect" href="https://fontsts.gstatic.com
+  <!-- A classy serif + clean sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;display=swap
+  styles.css
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="nav">
+    <a class="brand" hrefav>
+      #detailsDetails</a>
+      #storyOur Story</a>
+      #scheduleSchedule</a>
+      #galleryGallery</a>
+      <a hrefVP</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <assets/hero.jpg
+    <div class="hero-content">
+      <h1 class="couple">Văn Phụng & Kim Hằng</h1>
+      <p class="subtitle">Lễ Vu Quy</p>
+      <p class="date">Saturday, 20 September 2025</p>
+      <p class="location">Ho Chi Minh City, Vietnam</p>
+
+      <div id="countdown" class="countdown" aria-live="polite">
+        <div><span id="cd-days">00</span><small>Days</small></div>
+        <div><span id="cd-hours">00</span><small>Hours</small></div>
+        <div><span id="cd-mins">00</span><small>Mins</small></div>
+        <div><span id="cd-secs">00</span><small>Secs</small></div>
+      </div>
+
+      <div class="cta-group">
+        #rsvpRSVP Now</a>
+        #Add to Calendar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Details -->
+  <section id="details" class="section">
+    <div class="container">
+      <h2>Wedding Details</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Ceremony</h3>
+          <p><strong>Time:</strong> 11:00 AM</p>
+          <p><strong>Venue:</strong> Tai gia</p>
+          <p><strong>Address:</strong> 30/3 Duyen Hai, Xa Can Gio, TP. Ho Chi Minh</p>
+        </div>
+        <div class="card">
+          <h3>Reception</h3>
+          <p><strong>Time:</strong> 6:00 PM</p>
+          <p><strong>Venue:</strong> The Grand Hall</p>
+          <p><strong>Dress Code:</strong> Cocktail / Semi-formal</p>
+        </div>
+        <div class="card">
+          <h3>Map</h3>
+          <div class="map-wrap">
+            <https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d512.3728430562438!2d106.96619875343505!3d10.40905965894589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1svi!2s!4v1763118683396!5m2!1svi!2s>
+            <iframe
+              title="Venue Map"
+              width="100%"
+              height="240"
+              style="border:0"
+              loading="lazy"
+              allowfullscreen
+             class="section alt">
+    <div class="container narrow">
+      <h2>Our Story</h2>
+      <p>
+        We met over coffee and CAD drawings (true drafter romance ☺). From late-night design sprints to weekend street food runs,
+        every moment brought us closer. We can’t wait to celebrate the next chapter with you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="section">
+    <div class="container">
+      <h2>Schedule</h2>
+      <ul class="timeline">
+        <li><span>3:00 PM</span> Guest Arrival & Seating</li>
+        <li><span>3:30 PM</span> Ceremony Begins</li>
+        <li><span>4:15 PM</span> Photos & Cocktails</li>
+        <li><span>6:00 PM</span> Reception & Dinner</li>
+        <li><span>8:00 PM</span> First Dance & Party</li>
+        <li><span>10:30 PM</span> Farewell</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="grid">
+        <img src="assets/gallery-1.jpg" alt/gallery-2.jpg
+        assets/gallery-3.jpg
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="section">
+    <div class="container narrow">
+      <h2>RSVP</h2>
+      <p>Please RSVP by <strong>20 August 2025</strong>.</p>
+
+      <!-- OPTION A: Google Form (RECOMMENDED) -->
+      <!-- Replace the src below with your published Google Form embed link -->
+      <iframe
+        title="RSVP Form"
+        class="form-embed"
+        src=""
+        style="display:none"
+        loading="lazy">
+      </iframe>
+
+      <!-- OPTION B: Netlify Forms (static, no JS) -->
+      <!-- If deploying to Netlify, set form name and enable in dashboard -->
+      <form name="rsvp" method="POST" data-netlify="true" class="rsvp-form">
+        <input type="hidden" name="form-name" value="rsvp">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="field">
+          <label for="attendance">Will you attend?</label>
+          <select id="attendance" name="attendance" required>
+            <option value="">Select</option>
+            <option>Happily Accept</option>
+            <option>Regretfully Decline</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="guests">Number of Guests</label>
+          <input id="guests" name="guests" type="number" min="0" max="10" value="1" />
+        </div>
+        <div class="field">
+          <label for="diet">Dietary Requirements</label>
+          <input id="diet" name="diet" placeholder="Vegetarian, Halal, Allergies..." />
+        </div>
+        <button class="btn btn-primary" type="submit">Submit RSVP</button>
+        <p class="form-note">Prefer email? <ailto:your.email@example.com?subject=Wedding%20RSVPClick here</a>.</p>
+      </form>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>With love,</p>
+      <p class="couple">Văn Phụng & Kim Hằng</p>
+      <p class="small">© 2025</p>
+    </div>
+  </footer>
+
+  <script>
+    // CONFIG: set your event details
+    window.WEDDING_CONFIG = {
+      title: "Văn Phụng & Kim Hằng — Wedding",
+      // 2025-12-21T11:00:00 in local time
+      datetime: "2025-09-20T15:30:00",
+      durationMinutes: 180,
+      location: "Riverside Garden, 123 Nguyen Van Linh, District 7, HCMC",
+      description: "Join us to celebrate!",
+    };
+  </script>
+  script.js</script>
+</body>
+</html>
